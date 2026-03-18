@@ -1,0 +1,72 @@
+/* Google font styles */
+/* main body font */
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Lato", sans-serif;
+}
+/* navigation and header font */
+nav li, header h1, header h2 {
+  font-family: "broadway", sans-serif;
+}
+
+/* body styles */
+html {
+  width: 70%;
+  margin: auto;
+  background-color: #aea1f0;
+}
+
+body {
+  background-color: #b4eded;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* header styles */
+header img {
+  float: left;
+  margin-right: 10px;
+}
+
+/* nav styles */
+nav {
+  padding-top: 5px;
+}
+nav ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+nav li {
+  display: inline;
+}
+nav li a {
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: #3ba37b;
+  color: #6d3ba3;
+}
+/* change the link colours on hover */
+nav li a:hover {
+  background-color: #ed7b81;
+  color: ##f6f5f7;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* footer styles */
+footer {
+  border-top: 1px solid #000000;
+  overflow: hidden;
+}
+footer ul#social {
+  float: right;
+}
+footer ul#legal {
+  float: left;
+}
+main img {
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.social-icons a {
+    text-decoration: none;
+}
